@@ -18,6 +18,7 @@ Refined Image Processing: Version 2 demonstrates more advanced image processing 
 Enhanced Data Handling: The creation and management of datasets in version 2 are notable. While using 40,000 images led to lower efficiency in model training in the previous version, version 2 adopts a strategy of randomly selecting a subset(10%) of images for model training. This approach, combined with cross-validation, optimizes the model more effectively.
 
 #Dataset https://data.mendeley.com/datasets/5y9wdsg2zt/1
+
 The dataset contains concrete images having cracks. The data is collected from various METU Campus Buildings.
 The dataset is divided into two as negative and positive crack images for image classification. 
 Each class has 20000images with a total of 40000 images with 227 x 227 pixels with RGB channels. 
